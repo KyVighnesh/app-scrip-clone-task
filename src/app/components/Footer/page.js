@@ -84,7 +84,7 @@ export default function Footer() {
                     <div className={styles.InnerChild}>
                     <h3>FOLLOW US</h3>
                     <div className={styles.socialIcons}>
-                        <img src='./Assets/insta.png'/>
+                        <img src='./Assets/Insta.png'/>
                         <img src='./Assets/linkedin.png'/>
                     </div>
                     </div>
@@ -92,7 +92,7 @@ export default function Footer() {
                     <div className={styles.InnerChild}>
                         <h3>mettā muse Accepts</h3>
                         <div className={styles.upiSection}>
-                        <img src='./Assets/gpay.png'/>
+                        <img src='./Assets/Gpay.png'/>
                         <img src='./Assets/mastercard.png'/>
                         <img src='./Assets/paypal.png'/>
                         <img src='./Assets/amex.png'/>
