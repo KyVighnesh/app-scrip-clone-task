@@ -1,0 +1,40 @@
+
+
+.topNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.mainContainer{
+    background-color: black;
+    padding: 6px;
+}
+
+@media screen and (max-width:767px) {
+    .topNav div:first-child {
+        display: none;
+    }
+
+    .topNav div:last-child {
+        display: none;
+    }
+
+    .topNav div {
+        width: 20%;
+    }
+
+    .topNav div img{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .topNav div {
+        width: 30%;
+    }
+}
+
+

@@ -1,0 +1,274 @@
+.footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: black;
+    color:#FFFFFF;
+    display: none;
+}
+
+
+.sectionOne{
+    width: 98%;
+    margin: auto;
+    border-bottom: 1px solid #E5E5E5;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionOne div:first-child{
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.sectionOne div{
+    margin-left: 25px;
+}
+.sectionOne div:first-child h4 {
+margin-top: 20px;
+}
+
+.sectionOne div:last-child{
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.subscribeContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.subscribeContainer input{
+padding: 14px 24px 14px 24px;
+background-color:#FFFFFF;
+}
+
+.subscribeContainer button {
+    display: block;
+    height: 48px;
+    width: 109px;
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 0.45;
+
+}
+
+.sectionTwo {
+    width: 98%;
+    margin: auto;
+    min-height: 120px;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sectionTwo div {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin-left: 25px;
+    gap: 10px;
+}
+
+.sectionTwo div img {
+    width: 1.1%;
+    height: 7px;
+}
+
+.sectionTwo h3 {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.sectionTwo h4 {
+    font-size: 14px;
+}
+
+.sectionThree {
+    width: 98%;
+    margin: auto;
+    min-height: 120px;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sectionThree div {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    gap: 7px;
+}
+
+.sectionThree div img:last-child {
+    width: 1.1%;
+    height: 7px;
+}
+
+.sectionThree h3 {
+    margin-left: 25px;
+}
+
+.dropdownSections {
+    min-height: 80px;
+    width: 98%;
+    margin: auto;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownSections section div:first-child {
+    display: flex;
+    margin-left: 25px;
+}
+
+
+.dropdownSections img {
+    cursor: pointer;
+}
+
+.dropdownSections li{
+    list-style: none;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    gap: 7px;
+}
+
+.innerChild1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.innerChild1 img {
+    width: 2.7%;
+}
+
+
+
+.liContainer {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section4 {
+    min-height: 100px;
+    width: 98%;
+    margin: auto;
+}
+
+.section4 div:first-child {
+    width:100%;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.upiSection {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:560px) {
+.footer {
+    display: block;
+}
+
+.footer h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer li {
+    font-size: 14px;
+}
+
+.innerChild1 img {
+    width: 3%;
+}
+
+.sectionOne h4 {
+    font-size: 13px;
+}
+
+.sectionOne div:first-child{
+    margin-top: 30px;
+}
+
+.sectionThree img:first-child{
+    width: 4%;
+}
+
+.sectionThree {
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width:424px) {
+    .upiSection img{
+        width: 12%;
+    }
+
+    .sectionTwo div {
+        width: 95%;
+    }
+
+    .sectionTwo h3 {
+        font-size: 12px;
+    }
+
+    .sectionTwo h4 {
+        font-size: 10px;
+    }
+
+    .sectionTwo h5 {
+        font-size: 10px;
+    }
+
+    .subscribeContainer{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .subscribeContainer input{
+    padding: 12px 22px 12px 22px;
+    background-color:#FFFFFF;
+    }
+    
+    .subscribeContainer button {
+        display: block;
+        height: 44px;
+        width: 95px;
+        background-color: #000000;
+        color: #FFFFFF;
+        opacity: 0.45;
+    
+    }
+
+    .sectionOne h4 {
+        font-size: 11px;
+    }
+    
+    .sectionOne div:first-child{
+        margin-top: 25px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,109 @@
+
+.bannerContainer {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 300px;
+}
+
+.content{
+    width: 54%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.content h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 3.37vw;
+    line-height: 72px;
+    color: #252020;
+}
+
+.content p {
+    font-size: 1.4vw;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252020;
+    line-height: 40px;
+
+}
+
+.paragraph {
+    width: 90%;
+    margin: auto;
+}
+
+.bannerTop {
+    display: none;
+}
+
+.bannerTop span:first-child {
+    color:#BFC8CD;
+    
+}
+
+@media screen and (max-width:767px) {
+.content {
+    width: 100%;
+}
+
+.content h3 {
+    font-size: 4.8vw;
+    display: block;
+    height: 50px;
+}
+
+.content p {
+    font-size: 14px;
+}
+.bannerTop {
+    width: 30%;
+    font-size: 12px;
+    background-color: white;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+    display: block;
+}
+
+.bannerContainer {
+    height: 200px;
+}
+}
+
+@media screen and (max-width:480px) {
+    .content p {
+        font-size: 14px;
+    
+    }
+
+    .content {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:330px) {
+.paragraph p{
+font-size: 11px;
+}
+}
+
+
+@media screen and (min-width:767px) and (max-width:900px) {
+.content h3 {
+    font-size: 4vw;
+}
+
+.content p {
+    font-size: 2vw;
+}
+
+.content {
+    width: 90%;
+}
+}

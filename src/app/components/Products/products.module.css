@@ -1,0 +1,443 @@
+.main {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+}
+
+.headerSection {
+    display: flex;
+    width: 100%;
+    height: 88px;
+}
+
+.recommendedToggle div {
+    display: flex;
+    gap: 3px;
+   
+}
+
+.leftContainer {
+    width: 25%;
+}
+
+.leftContainer h4:last-child{
+display: none;
+}
+
+.leftContainer h4 {
+    font-size: 1.2vw;
+}
+
+.rightContainer h4 {
+    font-size: 1.2vw;
+}
+
+.leftContainer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightContainer {
+    width: 40%;
+}
+
+.innerChild {
+width: 58%;
+margin: auto;
+float: right;
+text-align: end;
+margin-right: 40px;
+cursor: pointer;
+}
+
+.innerChild h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+
+}
+
+.innerChild img {
+    rotate: 270deg;
+}
+
+.container {
+    width: 84.8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    margin: auto;
+    height: 100%;
+
+}
+
+.leftContainer button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    font-size: 1.1vw;
+    color: #888792;
+    cursor: pointer;
+
+}
+
+.filterBar {
+width:28%;
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.productSection {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.productSectionContainer {
+    width: 84.8%;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    width: 23.45%;
+    margin-top: 15px;
+}
+
+.card h5 {
+    font-size: 1.3vw;
+    font-weight: 700;
+    color:#252020;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card img {
+    width: 100%;
+    z-index: 1;
+}
+
+.card h6 {
+    font-size: 1vw;
+    font-weight: 400;
+    color: #888792;
+    line-height: 5.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.custom input {
+    width: 2.5vw;
+    height: 3.5vh;
+    border: 0.92px solid #4D4D4D
+}
+
+.filterChild {
+    min-height: 100px;
+    width: 90%;
+    border-top: 1px solid #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+
+.filterChild > div:first-child {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filterChild img {
+    rotate: 270deg;
+  
+}
+
+.filterOptions {
+    margin-top: 25px;
+}
+
+.recommendedToggle {
+    width: 22%;
+    position: absolute;
+    right: 7.8%;
+    overflow: visible;
+    box-shadow: 0px 0px 7px 1px #A3AAAF33;
+    background: #FFFFFF;
+    margin-top: 20px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.recommendedToggle div {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.recommendedToggle h4 {
+    font-size: 15px;
+}
+
+.heartIcon {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.heartIcon img{
+    width: 8%;
+    height: 24px;
+    cursor: pointer;
+}
+
+.innerFilterChild {
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.innerFilterChild input {
+    width: 1.4vw;
+    height: 2.8vh;
+    border: 0.75px solid #4D4D4D;
+    background: #FFFFFF;
+}
+
+.filterChild p {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    gap: 10px;
+}
+
+@media screen and (max-width:767px) {
+
+    .productList {
+        width: 100%;
+        gap: 2%;
+    }
+
+    .heartIcon img{
+        height: 15px;
+    }
+
+    .card {
+        width: 32%;
+    }
+
+
+    .filterBar {
+        position: absolute;
+        background-color: white;
+    }
+
+    .leftContainer {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .headerSection{
+        height: 40px;
+    }
+    
+    .leftContainer h4:last-child{        
+        display: block;
+        color: #252020;
+        font-size: 13px;
+        }
+
+
+    .leftContainer div {
+        width: 100%;
+        border-right: 1px solid #E5E5E5
+    }
+
+    .leftContainer button {
+        margin: auto;
+    }
+
+    .leftContainer p {
+        display: none;
+    }
+
+    .leftContainer h4:first-child {
+        display: none;
+    }
+
+    .rightContainer h4{
+        font-size: 13px;
+    }
+
+    .rightContainer {
+        width: 50%;
+    }
+
+    .recommendedToggle {
+        width: 35%;
+    }
+    
+    .recommendedToggle div h4{
+        display: block;
+        text-align: right;
+    } 
+
+    .recommendedToggle div {
+        width: 70%;
+        margin-right: 20px;
+        justify-content: end;
+        align-items: center;
+
+    }
+    
+
+    .filterChild {
+        min-height: 65px;
+        font-size: 13px;
+    }
+
+    .custom {
+        width: 40%;
+        font-size: 13px;
+        gap: 5px;
+    }
+
+    .card h5 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1200px) {
+    .card {
+        width: 32%;
+    }
+    
+    .card h5 {
+        font-size: 13px;
+    }
+
+    .heartIcon img{
+        height: 18px;
+    }
+    .filterChild {
+        min-height: 65px;
+        font-size: 13px;
+    }
+    
+
+    .custom {
+        width: 30%;
+        font-size: 15px;
+        gap: 5px;
+    }
+
+    .recommendedToggle div h4{
+        font-size: 15px;
+    } 
+
+    .recommendedToggle {
+        width: 30%;
+    }
+
+    .innerFilterChild{
+        width: 100%;
+    }
+
+    .innerFilterChild p {
+        width: 100%;
+    }
+
+    .recommendedToggle div {
+        display: flex;
+        justify-content: end;
+        width: 79%;
+
+    }
+
+    .leftContainer div h4 {
+        font-size: 15px;
+    }
+
+    .leftContainer div p {
+        font-size: 15px;
+    }
+
+    .leftContainer {
+        width: 35%;
+    }
+
+    .leftContainer div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .productList {
+        width: 100%;
+        gap: 2%;
+    }
+
+    .card {
+        width: 49%;
+    }
+
+    .card h5 {
+        font-size: 16px;
+    }
+
+    .card h6 {
+        font-size: 8px;
+    }
+
+    .recommendedToggle {
+        width: 40%;
+    }
+
+    .recommendedToggle div {
+        width: 90%;
+    }
+
+    .custom {
+        width: 25%;
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .filterBar {
+        width: 40%;
+    }
+
+    .filterChild h4 {
+        font-size: 10px;
+    }
+
+    .filterChild span {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .recommendedToggle {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:784px) {
+    .card h5 {
+        font-size: 13px;
+    }
+}
+
+
