@@ -35,7 +35,8 @@ return(
 
             <div className={styles.subscribeContainer}>
             <input type='text' placeholder='Enter your e-mail...'/>
-            <button>SUBSCRIBE</button>
+            <button>
+                <p>SUBSCRIBE</p></button>
             </div>
         </section>
 
