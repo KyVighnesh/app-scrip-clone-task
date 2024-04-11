@@ -67,7 +67,11 @@
     justify-content: center;
     margin: auto;
     gap: 40px;
+}
 
+.child2Nav li:hover {
+    border-bottom:2px solid #252020;
+    cursor: pointer;
 }
 
 .child2Nav li {
