@@ -137,6 +137,7 @@ background-color:#FFFFFF;
 
 .upperLeftSection button {
     display: block;
+    box-shadow: white 2px 2px 2px 2px;
     height: 48px;
     width: 30%;
     background-color: #000000;
