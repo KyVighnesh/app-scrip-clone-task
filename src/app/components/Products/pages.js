@@ -141,7 +141,7 @@ const onHandleClickShowFilterOptions = (target)=> {
                             return(
                                 <div onClick ={()=>onHandleClickSort(ele)} key={index}>
                                     {ele.selected?<img src="./Assets/Icons/tick.png" style={{rotate:'360deg'}}/>:""}
-                                    <h4>{ele.option}</h4>
+                                    <h4 style={{fontWeight:ele.selected?"800":"300"}}>{ele.option}</h4>
                                 </div>
                             )
                         })}
