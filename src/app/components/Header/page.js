@@ -34,9 +34,9 @@ export default function HeaderNav (){
 
             <div className={styles.child2}>
                 <nav className={styles.child2Nav}>
-                    {navList.map((ele)=> {
+                    {navList.map((ele,index)=> {
                         return(
-                            <li>
+                            <li key={index}>
                                 {ele}
                             </li>
                         )
@@ -46,9 +46,9 @@ export default function HeaderNav (){
 
             {showMenu?<div className={styles.showMenu}>
                 <div>
-                    {navList.map((ele)=> {
+                    {navList.map((ele,index)=> {
                         return(
-                            <li>
+                            <li key={index}>
                                 {ele}
                             </li>
                         )
