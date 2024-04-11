@@ -11,9 +11,10 @@
 }
 
 .recommendedToggle div {
-    display: flex;
+    display: inline-flex;
     gap: 3px;
-   
+    width: 55%;
+    justify-content: end;
 }
 
 .leftContainer {
@@ -109,6 +110,12 @@ width:28%;
 .card {
     width: 23.45%;
     margin-top: 15px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1,1.1);
 }
 
 .card h5 {
@@ -168,9 +175,10 @@ width:28%;
 }
 
 .recommendedToggle {
-    width: 22%;
+    width: 18%;
     position: absolute;
     right: 7.8%;
+    align-items: center;
     overflow: visible;
     box-shadow: 0px 0px 7px 1px #A3AAAF33;
     background: #FFFFFF;
@@ -181,11 +189,7 @@ width:28%;
     justify-content: space-evenly;
 }
 
-.recommendedToggle div {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
+
 
 .recommendedToggle h4 {
     font-size: 15px;
@@ -197,9 +201,14 @@ width:28%;
 }
  
 .heartIcon img{
-    width: 8%;
-    height: 24px;
+    width: 9%;
+    height: 25px;
     cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.heartIcon img:hover{
+    transform: scale(1.2,1.2);
 }
 
 .innerFilterChild {
