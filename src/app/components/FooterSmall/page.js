@@ -108,7 +108,7 @@ return(
             </div>
             
             <div className={styles.upiSection}>
-                        <img src='./Assets/gpay.png'/>
+                        <img src='./Assets/Gpay.png'/>
                         <img src='./Assets/mastercard.png'/>
                         <img src='./Assets/paypal.png'/>
                         <img src='./Assets/amex.png'/>
