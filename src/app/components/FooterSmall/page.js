@@ -59,7 +59,7 @@ return(
 
         {sections.map((ele,index)=> {
             return(
-                <section className={styles.dropdownSections}>
+                <section className={styles.dropdownSections} key={index}>
                     <div className={styles.innerChild1}>
                     <h3>{ele.title1}</h3>
                     <img src='Assets/arrow-right.png' style = {{rotate:ele.show?"180deg":"",transition:"0.5s rotate"}} onClick={()=>onHandleClickShow(ele)}/>
