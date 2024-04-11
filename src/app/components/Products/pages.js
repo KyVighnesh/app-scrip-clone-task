@@ -137,9 +137,9 @@ const onHandleClickShowFilterOptions = (target)=> {
                         <img src="../Assets/arrow-left.png"/>
                     </h4>
                     {recommended?<div className={styles.recommendedToggle}>
-                        {sort.map((ele)=> {
+                        {sort.map((ele,index)=> {
                             return(
-                                <div onClick ={()=>onHandleClickSort(ele)}>
+                                <div onClick ={()=>onHandleClickSort(ele)} key={index}>
                                     {ele.selected?<img src="./Assets/Icons/tick.png" style={{rotate:'360deg'}}/>:""}
                                     <h4>{ele.option}</h4>
                                 </div>
@@ -160,9 +160,9 @@ const onHandleClickShowFilterOptions = (target)=> {
                     <h4>CUSTOMIZABLE</h4>  
                     </div>
                     <section className={styles.filterOptions}>
-                        {filterOptions.map((ele)=> {
+                        {filterOptions.map((ele,index)=> {
                             return(
-                                <div className={styles.filterChild}>
+                                <div className={styles.filterChild} key={index}>
                                     <div>
                                     <h4>{ele.title}</h4>
                                     <img src="../Assets/arrow-left.png" onClick={()=>onHandleClickShowFilterOptions(ele)}/>
@@ -185,7 +185,7 @@ const onHandleClickShowFilterOptions = (target)=> {
                 <article className={styles.productList} style={{width:width}}>
                     {products.map((element,index)=> {
                         return(
-                            <div className={styles.card}>
+                            <div className={styles.card} key={index}>
                                 <img src={element.image}/>
                                 <div className={styles.heartIcon}>
                                 <h5>{element.title.toUpperCase()}</h5>
