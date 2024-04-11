@@ -9,12 +9,12 @@ import FooterSmall from "./components/FooterSmall/page";
 export default function Home() {
   return (
     <main>
-     <TopBar key="top"/>
-      <HeaderNav key="head"/>
-      <Banner key="mid"/>
-      <Products key = "list"/>
-      <Footer key = "end"/>
-      <FooterSmall key = "alt"/>
+      <TopBar/>
+      <HeaderNav/>
+      <Banner/>
+      <Products/>
+      <Footer/>
+      <FooterSmall/>
     </main>
   );
 }
