@@ -127,7 +127,6 @@ width:25%;
 
 .card img {
     width: 100%;
-    z-index: 1;
 }
 
 .card h6 {
@@ -441,6 +440,10 @@ width:25%;
 @media screen and (max-width:376px) {
     .recommendedToggle {
         width: 50%;
+    }
+
+    .card h6 {
+        font-size: 6px;
     }
 }
 
