@@ -69,7 +69,7 @@ const onHandleClickFilterMenu = () => {
     }
     
     else {
-        setWidth("72%")
+        setWidth("75%")
     }
 }
 
@@ -165,7 +165,7 @@ const onHandleClickShowFilterOptions = (target)=> {
                                 <div className={styles.filterChild} key={index}>
                                     <div>
                                     <h4>{ele.title}</h4>
-                                    <img src="../Assets/arrow-left.png" onClick={()=>onHandleClickShowFilterOptions(ele)}/>
+                                    <img src="../Assets/arrow-left.png" onClick={()=>onHandleClickShowFilterOptions(ele)} style ={{rotate:ele.show?"90deg":"",transition:'rotate 0.6s'}}/>
                                     </div>
 
                                     <span>{ele.option1}
