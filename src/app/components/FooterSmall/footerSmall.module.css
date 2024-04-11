@@ -45,7 +45,6 @@ background-color:#FFFFFF;
 }
 
 .subscribeContainer button {
-    display: block;
     height: 48px;
     width: 109px;
     background-color: #000000;
@@ -251,13 +250,12 @@ background-color:#FFFFFF;
     }
     
     .subscribeContainer button {
-        display: block;
         height: 44px;
         width: 95px;
         background-color: #000000;
         color: #FFFFFF;
         opacity: 0.45;
-    
+
     }
 
     .sectionOne h4 {
@@ -269,7 +267,38 @@ background-color:#FFFFFF;
     }
 }
 
+@media screen and (max-width:370px) {
+    .subscribeContainer input{
+        height: 30px;
+        width: 60%;
+        background-color:#FFFFFF;
+        }
+        
+        .subscribeContainer button {
+            display: block;
+            height: 26px;
+            width: 20%;
+            padding: 0;
+            background-color: #000000;
+            color: #FFFFFF;
+            opacity: 0.45;
+    
+        }
 
+        .subscribeContainer button p {
+            font-size: 8px;
+        }
 
+        .sectionOne {
+            width: 100%;
+        }
 
+        .sectionOne h3 {
+            font-size: small;
+        }
 
+        .sectionOne h4 {
+            font-size: 8px;
+        }
+    
+}
