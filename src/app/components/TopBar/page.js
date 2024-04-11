@@ -11,9 +11,9 @@ export default function TopBar () {
     return(
         <div className={styles.mainContainer}>
            <nav className={styles.topNav}>
-        {lorem.map((ele)=> {
+        {lorem.map((ele,index)=> {
             return(
-                <div className='child-div'>
+                <div className='child-div' key={index}>
                     <img src={ele}/>
                 </div>
             )
